@@ -1,0 +1,32 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Project to test the 7th guideline of Better Code Hub - Keep Architecture Components Balanced",
+  "main": "configurations/createProtractorConfig.js",
+  "scripts": {
+    "test": "webdriver-manager update && protractor configurations/protractorChrome.conf.js && protractor configurations/protractorFirefox.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlsf82/e2e-seventh-guideline-bch.git"
+  },
+  "keywords": [
+    "testing",
+    "test",
+    "automation",
+    "end-to-end"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr-filho.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlsf82/e2e-seventh-guideline-bch/issues"
+  },
+  "homepage": "https://github.com/wlsf82/e2e-seventh-guideline-bch#readme",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-flake": "^4.0.0",
+    "protractor-helper": "^3.7.7",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
