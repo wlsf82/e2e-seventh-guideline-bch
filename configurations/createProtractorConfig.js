@@ -4,7 +4,7 @@ const SpecReporter = require("jasmine-spec-reporter").SpecReporter;
 module.exports = (providedConfig) => {
     const defaultConfig = {
         baseUrl: "http://localhost:4001/",
-        specs: ["../specs/*.spec.js"],
+        specs: ["../specifications/*.specification.js"],
         directConnect: true,
         onPrepare: () => {
             browser.ignoreSynchronization = true;
